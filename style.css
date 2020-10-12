@@ -121,7 +121,7 @@ a {
     bottom: 0;
     right:0;
     content: '';
-    width: 50vw;
+    width: 70vw;
     height: 1px;
     background-color: var(--highlightColor2);
 }
@@ -231,12 +231,20 @@ a {
 .social__link {
     margin-right: 1rem;
     height: 40px;
+    background-color: var(--highlightColor2);
 
     transition: transform 0.2s;
 }
 
 .social__link:hover {
     transform: translateY(-5px) ;
+}
+
+.social__link--cv {
+    padding: 0 7px;
+    line-height: 42px;
+    text-align: center;
+    background-color: var(--highlightColor);
 }
 
 
@@ -304,8 +312,8 @@ a {
 }
 
 .portfolio__item:hover {
-    border-color: var(--highlightColor2);
-    background-color: var(--highlightColor2);
+    border-color: var(--highlightColor);
+    background-color: var(--highlightColor);
 }
 
 .portfolio__img {
